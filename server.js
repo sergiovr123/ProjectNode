@@ -148,6 +148,6 @@ app.delete('/users/deleteProduct', jsonParser, (req, res) => {
 
 
 
-http.createServer(app).listen(80, () => {
-    console.log('Server started at http://localhost:80');
+http.createServer(app).listen(8001, () => {
+    console.log('Server started at http://localhost:8001');
 });
